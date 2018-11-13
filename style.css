@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,900');
+
+.container {
+    background-color: #ecf0f5;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.info-box {
+    display: inline-flex;
+    flex-basis: 20%;
+    background-color: white;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.info-box__icon {
+    display: flex;
+    height: 90px;
+    width: 90px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 45px;
+    background: rgba(0,0,0,0.2);
+}
+
+.info-box__content {
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.info-box__text {
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.info-box__number {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.progress {
+    background: rgba(0,0,0,0.2);
+    height: 3px;
+    color: white;
+}
+
+.progress__bar {
+     background-color: white;
+     height: 100%;
+     margin: 6px 0;
+}
+
+.progress__description {
+    position: relative;
+    font-size: 12px;
+    color: white;
+}
+
+.small-box {
+    border-radius: 2px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    width: 20%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.small-box__footer:hover {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.small-box__content {
+    padding: 10px;
+}
+
+.small-box__text {
+    font-size: 15px;
+}
+
+.small-box__number {
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.small-box__icon {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 20px;
+    left: 190px;
+    color: rgba(0,0,0,0.15);
+    font-size: 60px;
+}
+
+.small-box__footer {
+    text-align: center;
+    padding: 3px 3px;
+    color: rgba(255,255,255,0.8);
+    display: block;
+    background: rgba(0,0,0,0.1);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.small-box__footer--icon {
+    padding-left: 4px;
+}
+
+.bg-aqua {
+    background-color: #00c0ef;
+    color: white;
+}
+
+.bg-green {
+    background-color: #00a65a;
+    color: white;
+}
+
+.bg-orange {
+    background-color: #f39c12;
+    color: white;
+}
+
+.bg-red {
+    background-color: #dd4b39;
+    color: white;
+}
+
